@@ -1,7 +1,49 @@
 package com.example.sss.careerandfuturemajor;
 
 /**
- * Created by Ly Suytry on 8/23/2016.
+ * Created by Ly Suytry on 8/21/2016.
  */
 public class Creator {
+    private String name,phone,facebook;
+    private int pic;
+    public Creator(){
+
+    }
+    public Creator(String name,String phone ,String fb,int pic){
+        this.name=name;
+        this.phone=phone;
+        this.facebook=fb;
+        this.pic=pic;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getFacebook() {
+        return facebook;
+    }
+
+    public void setFacebook(String facebook) {
+        this.facebook = facebook;
+    }
+
+    public int getPic() {
+        return pic;
+    }
+
+    public void setPic(int pic) {
+        this.pic = pic;
+    }
 }
