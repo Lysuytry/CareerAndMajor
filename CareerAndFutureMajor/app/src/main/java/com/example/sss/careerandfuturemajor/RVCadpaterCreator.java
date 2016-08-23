@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ly Suytry on 8/21/2016.
- */
 public class RVCadpaterCreator extends RecyclerView.Adapter<RVCadpaterCreator.viewHolder> {
     private Context mc;
     private ArrayList<Creator> c;
@@ -62,8 +59,8 @@ public class RVCadpaterCreator extends RecyclerView.Adapter<RVCadpaterCreator.vi
         View creatorView = inflater.inflate(R.layout.creator_layout, parent, false);
 
         // Return a new holder instance
-        viewHolder viewholder = new viewHolder(creatorView);
-        return viewholder;
+        viewHolder mviewholder = new viewHolder(creatorView);
+        return mviewholder;
     }
 
     @Override

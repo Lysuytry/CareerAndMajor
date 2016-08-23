@@ -8,15 +8,12 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ly Suytry on 8/22/2016.
- */
 public class CreatorDetail extends AppCompatActivity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail);
-        ArrayList<Creator> c=new ArrayList<Creator>();
+        ArrayList<Creator> c=new ArrayList<>();
         RecyclerView rvContacts = (RecyclerView) findViewById(R.id.rvcCreator);
             // Initialize contacts
             // Create adapter passing in the sample user data
