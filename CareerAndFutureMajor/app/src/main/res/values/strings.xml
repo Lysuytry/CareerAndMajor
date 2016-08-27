@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">CareerAndFutureMajor</string>
-    <string name="answer"></string>
+    <string name="answer">ចម្លើយ</string>
+    <string name="av">ចូលចិត្តណាស់</string>
+    <string name="ai">ចាប់អារម្មណ៏</string>
+    <string name="an">ចាប់អារម្មណ៏តិចតួច</string>
+    <string name="ani">មិនចូលចិត្ត</string>
+    <string name="dialog_message">Result</string>
+    <string name="dialog_title">Progressing...</string>
+    <string name="next">Continue</string>
+    <string name="question">សំនូន  :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

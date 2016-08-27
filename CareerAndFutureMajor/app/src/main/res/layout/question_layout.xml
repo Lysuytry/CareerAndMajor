@@ -6,28 +6,97 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textAlignment="center"
-        android:padding="5dp"
+        android:padding="4dp"
+        android:layout_marginLeft="8dp"
         android:fontFamily="sans-serif"
-        android:text="1/65"
-        android:id="@+id/pageNumber"/>
+        android:layout_marginTop="4dp"
+        android:text="@string/question"
+        android:textSize="18sp"
+        android:id="@+id/txtAnswer"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:layout_marginLeft="4dp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
         android:fontFamily="sans-serif"
-        android:text="Question"
-        android:textSize="16sp"
+        android:layout_marginTop="2dp"
+        android:text="Question : "
+        android:textSize="20sp"
         android:id="@+id/txtQuestion"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textAlignment="center"
-        android:padding="5dp"
+        android:padding="8dp"
+        android:layout_margin="4dp"
         android:fontFamily="sans-serif"
-        android:text="@string/"
+        android:text="@string/answer"
         android:id="@+id/Answer"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/av"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_margin="2dp"
+            android:checked="false"
+            android:id="@+id/btInteresting"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/ai"
+            android:textSize="15sp"
+            android:layout_margin="2dp"
+            android:checked="false"
+            android:id="@+id/btInterest"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/an"
+            android:textSize="15sp"
+            android:layout_margin="2dp"
+            android:checked="false"
+            android:id="@+id/btNormal"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_margin="2dp"
+            android:text="@string/ani"
+            android:textSize="15sp"
+            android:checked="false"
+            android:id="@+id/btNotInteresting"/>
+    </RadioGroup>
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:background="@drawable/round"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:src="@drawable/nextmeduim"
+        android:id="@+id/btNext"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="1/65"
+        android:id="@+id/pageNumber"/>
+
 </LinearLayout>
